@@ -3,3 +3,12 @@
 import UIKit
 
 var str = "Hello, playground"
+
+var myVarible = 42
+myVarible = 50;
+let myConstant = 42;
+
+let implicitInteger = 70
+let implicitDouble = 70.0
+let explicitDouble:Double = 70
+let explicitFloat:Float = 4
