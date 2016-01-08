@@ -76,3 +76,5 @@ print("hello,is ok")
 let sparklingHeart = "\u{1F496}";
 
 
+var param? String
+param = "I'm king,you are my queen"
