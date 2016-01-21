@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Show3DViewController">
+            <connections>
+                <outlet property="tableView" destination="l07-Y1-ecm" id="huq-ge-9Jg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="l07-Y1-ecm">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="JVt-th-nVH"/>
+                        <outlet property="delegate" destination="-1" id="yTV-4A-jKe"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="l07-Y1-ecm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="46u-v0-k6u"/>
+                <constraint firstItem="l07-Y1-ecm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4Ld-ph-tOq"/>
+                <constraint firstAttribute="trailing" secondItem="l07-Y1-ecm" secondAttribute="trailing" id="4nh-Le-dnf"/>
+                <constraint firstAttribute="bottom" secondItem="l07-Y1-ecm" secondAttribute="bottom" id="7yE-RU-Uxi"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

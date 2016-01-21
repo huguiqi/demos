@@ -16,6 +16,16 @@
 		22BD9B0D1C3FD7E0000DCF80 /* Objc_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BD9B0C1C3FD7E0000DCF80 /* Objc_demoTests.m */; };
 		22BD9B181C3FD7E0000DCF80 /* Objc_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BD9B171C3FD7E0000DCF80 /* Objc_demoUITests.m */; };
 		22BD9B2C1C4000A3000DCF80 /* SwiftClassDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD9B2B1C4000A3000DCF80 /* SwiftClassDemo.swift */; };
+		22BF67C51C4F9FFB008F3FA2 /* WFRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF67C31C4F9FFB008F3FA2 /* WFRootViewController.m */; };
+		22BF67C61C4F9FFB008F3FA2 /* WFRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BF67C41C4F9FFB008F3FA2 /* WFRootViewController.xib */; };
+		22BF67CE1C50B229008F3FA2 /* WFUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF67CD1C50B229008F3FA2 /* WFUtil.m */; };
+		22BF67D11C50B86D008F3FA2 /* WFBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF67D01C50B86D008F3FA2 /* WFBaseController.m */; };
+		22BF67D91C50BB8F008F3FA2 /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF67D71C50BB8F008F3FA2 /* HomeViewCell.m */; };
+		22BF67DA1C50BB8F008F3FA2 /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BF67D81C50BB8F008F3FA2 /* HomeViewCell.xib */; };
+		22BF67DD1C50C9D6008F3FA2 /* ZTAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF67DC1C50C9D6008F3FA2 /* ZTAdView.m */; };
+		22BF67E61C50CED0008F3FA2 /* Show3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF67E41C50CED0008F3FA2 /* Show3DViewController.m */; };
+		22BF67E71C50CED0008F3FA2 /* Show3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BF67E51C50CED0008F3FA2 /* Show3DViewController.xib */; };
+		9A0CAFF7820F0A607454D58E /* libPods-Objc_demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D7733FDCA58FCF7D84EBE2 /* libPods-Objc_demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +64,24 @@
 		22BD9B191C3FD7E0000DCF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BD9B2A1C4000A3000DCF80 /* Objc_demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc_demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		22BD9B2B1C4000A3000DCF80 /* SwiftClassDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftClassDemo.swift; sourceTree = "<group>"; };
+		22BF67C21C4F9FFB008F3FA2 /* WFRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFRootViewController.h; sourceTree = "<group>"; };
+		22BF67C31C4F9FFB008F3FA2 /* WFRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFRootViewController.m; sourceTree = "<group>"; };
+		22BF67C41C4F9FFB008F3FA2 /* WFRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WFRootViewController.xib; sourceTree = "<group>"; };
+		22BF67CC1C50B229008F3FA2 /* WFUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFUtil.h; sourceTree = "<group>"; };
+		22BF67CD1C50B229008F3FA2 /* WFUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFUtil.m; sourceTree = "<group>"; };
+		22BF67CF1C50B86D008F3FA2 /* WFBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFBaseController.h; sourceTree = "<group>"; };
+		22BF67D01C50B86D008F3FA2 /* WFBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFBaseController.m; sourceTree = "<group>"; };
+		22BF67D61C50BB8F008F3FA2 /* HomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewCell.h; sourceTree = "<group>"; };
+		22BF67D71C50BB8F008F3FA2 /* HomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewCell.m; sourceTree = "<group>"; };
+		22BF67D81C50BB8F008F3FA2 /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		22BF67DB1C50C9D6008F3FA2 /* ZTAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTAdView.h; sourceTree = "<group>"; };
+		22BF67DC1C50C9D6008F3FA2 /* ZTAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTAdView.m; sourceTree = "<group>"; };
+		22BF67E31C50CED0008F3FA2 /* Show3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Show3DViewController.h; sourceTree = "<group>"; };
+		22BF67E41C50CED0008F3FA2 /* Show3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Show3DViewController.m; sourceTree = "<group>"; };
+		22BF67E51C50CED0008F3FA2 /* Show3DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Show3DViewController.xib; sourceTree = "<group>"; };
+		44D7733FDCA58FCF7D84EBE2 /* libPods-Objc_demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Objc_demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0775E123AF9CFEC542C004 /* Pods-Objc_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Objc_demo/Pods-Objc_demo.release.xcconfig"; sourceTree = "<group>"; };
+		BE968D2929F05430878D3463 /* Pods-Objc_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Objc_demo/Pods-Objc_demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0CAFF7820F0A607454D58E /* libPods-Objc_demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +117,8 @@
 				22BD9B0B1C3FD7E0000DCF80 /* Objc_demoTests */,
 				22BD9B161C3FD7E0000DCF80 /* Objc_demoUITests */,
 				22BD9AF01C3FD7E0000DCF80 /* Products */,
+				95657BF305997565E931C184 /* Pods */,
+				2A2EC7C22D8327F3C22E2BDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +135,8 @@
 		22BD9AF11C3FD7E0000DCF80 /* Objc_demo */ = {
 			isa = PBXGroup;
 			children = (
+				22BF67CB1C50B229008F3FA2 /* Common */,
+				22BF67C71C4FA004008F3FA2 /* RootView */,
 				22BD9AF51C3FD7E0000DCF80 /* AppDelegate.h */,
 				22BD9AF61C3FD7E0000DCF80 /* AppDelegate.m */,
 				22BD9AF81C3FD7E0000DCF80 /* ViewController.h */,
@@ -145,6 +178,60 @@
 			path = Objc_demoUITests;
 			sourceTree = "<group>";
 		};
+		22BF67C71C4FA004008F3FA2 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				22BF67D51C50BB8F008F3FA2 /* Views */,
+				22BF67C21C4F9FFB008F3FA2 /* WFRootViewController.h */,
+				22BF67C31C4F9FFB008F3FA2 /* WFRootViewController.m */,
+				22BF67C41C4F9FFB008F3FA2 /* WFRootViewController.xib */,
+			);
+			name = RootView;
+			sourceTree = "<group>";
+		};
+		22BF67CB1C50B229008F3FA2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				22BF67CC1C50B229008F3FA2 /* WFUtil.h */,
+				22BF67CD1C50B229008F3FA2 /* WFUtil.m */,
+				22BF67CF1C50B86D008F3FA2 /* WFBaseController.h */,
+				22BF67D01C50B86D008F3FA2 /* WFBaseController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		22BF67D51C50BB8F008F3FA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22BF67E31C50CED0008F3FA2 /* Show3DViewController.h */,
+				22BF67E41C50CED0008F3FA2 /* Show3DViewController.m */,
+				22BF67E51C50CED0008F3FA2 /* Show3DViewController.xib */,
+				22BF67DB1C50C9D6008F3FA2 /* ZTAdView.h */,
+				22BF67DC1C50C9D6008F3FA2 /* ZTAdView.m */,
+				22BF67D61C50BB8F008F3FA2 /* HomeViewCell.h */,
+				22BF67D71C50BB8F008F3FA2 /* HomeViewCell.m */,
+				22BF67D81C50BB8F008F3FA2 /* HomeViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A2EC7C22D8327F3C22E2BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D7733FDCA58FCF7D84EBE2 /* libPods-Objc_demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95657BF305997565E931C184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE968D2929F05430878D3463 /* Pods-Objc_demo.debug.xcconfig */,
+				9D0775E123AF9CFEC542C004 /* Pods-Objc_demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22BD9B1C1C3FD7E0000DCF80 /* Build configuration list for PBXNativeTarget "Objc_demo" */;
 			buildPhases = (
+				D60D187B19BE456DB772EFAA /* Check Pods Manifest.lock */,
 				22BD9AEB1C3FD7E0000DCF80 /* Sources */,
 				22BD9AEC1C3FD7E0000DCF80 /* Frameworks */,
 				22BD9AED1C3FD7E0000DCF80 /* Resources */,
+				1364420B8BC15D8181C18F68 /* Embed Pods Frameworks */,
+				79C2CC26F6617C5AD8D86795 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,7 +339,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BD9B021C3FD7E0000DCF80 /* LaunchScreen.storyboard in Resources */,
+				22BF67C61C4F9FFB008F3FA2 /* WFRootViewController.xib in Resources */,
+				22BF67E71C50CED0008F3FA2 /* Show3DViewController.xib in Resources */,
 				22BD9AFF1C3FD7E0000DCF80 /* Assets.xcassets in Resources */,
+				22BF67DA1C50BB8F008F3FA2 /* HomeViewCell.xib in Resources */,
 				22BD9AFD1C3FD7E0000DCF80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +363,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1364420B8BC15D8181C18F68 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Objc_demo/Pods-Objc_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C2CC26F6617C5AD8D86795 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Objc_demo/Pods-Objc_demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60D187B19BE456DB772EFAA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22BD9AEB1C3FD7E0000DCF80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,8 +418,14 @@
 			files = (
 				22BD9AFA1C3FD7E0000DCF80 /* ViewController.m in Sources */,
 				22BD9AF71C3FD7E0000DCF80 /* AppDelegate.m in Sources */,
+				22BF67E61C50CED0008F3FA2 /* Show3DViewController.m in Sources */,
+				22BF67C51C4F9FFB008F3FA2 /* WFRootViewController.m in Sources */,
 				22BD9AF41C3FD7E0000DCF80 /* main.m in Sources */,
+				22BF67DD1C50C9D6008F3FA2 /* ZTAdView.m in Sources */,
+				22BF67CE1C50B229008F3FA2 /* WFUtil.m in Sources */,
+				22BF67D91C50BB8F008F3FA2 /* HomeViewCell.m in Sources */,
 				22BD9B2C1C4000A3000DCF80 /* SwiftClassDemo.swift in Sources */,
+				22BF67D11C50B86D008F3FA2 /* WFBaseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +562,7 @@
 		};
 		22BD9B1D1C3FD7E0000DCF80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE968D2929F05430878D3463 /* Pods-Objc_demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -430,6 +578,7 @@
 		};
 		22BD9B1E1C3FD7E0000DCF80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0775E123AF9CFEC542C004 /* Pods-Objc_demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -509,6 +658,7 @@
 				22BD9B1E1C3FD7E0000DCF80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22BD9B1F1C3FD7E0000DCF80 /* Build configuration list for PBXNativeTarget "Objc_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +667,7 @@
 				22BD9B211C3FD7E0000DCF80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22BD9B221C3FD7E0000DCF80 /* Build configuration list for PBXNativeTarget "Objc_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +676,7 @@
 				22BD9B241C3FD7E0000DCF80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

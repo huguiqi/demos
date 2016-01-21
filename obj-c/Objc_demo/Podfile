@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+#platform :ios, '7.0'
+# 使用时请将依赖打开
+target 'Objc_demo' do
+#pod 'Masonry'
+pod 'SDWebImage', '~> 3.6'
+end
+
+target 'Objc_demoTests' do
+
+#pod "Qiniu", "~> 7.0"
+
+end

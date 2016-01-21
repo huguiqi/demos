@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "Objc_demo-Swift.h"
 
+#import "WFRootViewController.h"
 
 
 @interface AppDelegate ()
@@ -23,6 +24,14 @@
     SwiftClassDemo *demo = [[SwiftClassDemo alloc] init];
     [demo sayHello];
     NSLog(@"%@",[demo saygoodBye:@"good bye!!" withName:@"sam.hu"]);
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    WFRootViewController * rootController = [[WFRootViewController alloc] init];
+    self.window.rootViewController = rootController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
