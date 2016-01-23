@@ -59,7 +59,10 @@ static NSString* homeCellIndentifier = @"homeCell";
     [_tableView registerNib:InstantiateNibFromNibName(@"HomeViewCell") forCellReuseIdentifier:homeCellIndentifier];
     _tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     
-    
+    [UIPreviewAction actionWithTitle:@"test" style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+        NSLog(@"peek action");
+    }];
+
 }
 
 
@@ -72,18 +75,34 @@ static NSString* homeCellIndentifier = @"homeCell";
     
     HomeViewCell *homeCell = [tableView dequeueReusableCellWithIdentifier:homeCellIndentifier];
     [homeCell setText:[homeArrays objectAtIndex:[indexPath row]]];
-    if ([indexPath row]==1) {
-        [self registerForPreviewingWithDelegate:self sourceView:homeCell];
+    if ([self has3DTouch]) {
+        if ([indexPath row]==1) {
+            [self registerForPreviewingWithDelegate:self sourceView:homeCell];
+        }
     }
+    
     return homeCell;
 
+}
+
+- (BOOL)has3DTouch
+{
+    // 如果开启了3D touch
+    if (self.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable)
+    {
+        return YES;
+        
+    }
+    return NO;
 }
 
 
 - (nullable UIViewController *)previewingContext:(id <UIViewControllerPreviewing>)previewingContext viewControllerForLocation:(CGPoint)location{
     
+    if ([self.presentedViewController isKindOfClass:[Show3DViewController class]]) {
+        return nil;
+    }
      Show3DViewController *childVC = (Show3DViewController *)InstantiateControllerFromXIB([Show3DViewController class]);
-//     UIViewController *childVC = [[UIViewController alloc] init];
     
     childVC.preferredContentSize = CGSizeMake(0.0f,300.0f);
     

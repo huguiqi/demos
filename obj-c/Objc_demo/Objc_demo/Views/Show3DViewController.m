@@ -25,6 +25,8 @@
     for (int i= 0; i<20; i++) {
         [homeArrays addObject:[NSString stringWithFormat:@"第 %i 栏",i]];
     }
+    
+    
 }
 
 
@@ -43,6 +45,35 @@
     
     return cell;
     
+}
+
+- (NSArray <id <UIPreviewActionItem>> *)previewActionItems{
+    
+    UIPreviewAction *previewAction1 =  [UIPreviewAction actionWithTitle:@"action1" style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+        NSLog(@"peek action 1");
+    }];
+    
+    UIPreviewAction *previewAction2 =  [UIPreviewAction actionWithTitle:@"action2" style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+        NSLog(@"peek action 2");
+    }];
+    
+    NSArray *actions = @[previewAction1,previewAction2];
+    
+    UIPreviewAction *tap1 = [UIPreviewAction actionWithTitle:@"tap 1" style:UIPreviewActionStyleSelected handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+        NSLog(@"tap 1 selected");
+    }];
+    
+    UIPreviewAction *tap2 = [UIPreviewAction actionWithTitle:@"tap 2" style:UIPreviewActionStyleSelected handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+        NSLog(@"tap 2 selected");
+    }];
+    
+    NSArray *taps = @[tap1,tap2];
+    
+    UIPreviewActionGroup *group1 = [UIPreviewActionGroup actionGroupWithTitle:@"group1" style:UIPreviewActionStyleDefault actions:taps];
+    
+    
+    //    NSArray *group =
+    return @[previewAction1,previewAction2,group1];
 }
 
 - (void)didReceiveMemoryWarning {
