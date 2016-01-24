@@ -39,9 +39,6 @@ static NSString* homeCellIndentifier = @"homeCell";
     // Do any additional setup after loading the view from its nib.
     
     homeArrays = [NSArray arrayWithObjects:@"第一栏",@"第二栏",@"第三栏", nil];
-    
-    
-    
     self.advertView = [[ZTAdView alloc] initWithFrame:CGRectMake(0, 0, DEF_SCREEN_WIDTH, ScaleWidth(182))];
     _advertView.pageControlPosition = ZWPageControlPosition_BottomCenter;
     _advertView.placeImageSource = @"";
